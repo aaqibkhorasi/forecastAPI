@@ -9,3 +9,13 @@ Tools Used:
 API used: 
 - Google Map API
 - Dark Sky API
+
+Instruction to run: 
+- Setup environmnet variable with its respective API keys: 
+  - DSKY_KEY = [KEY]
+  - GMAPS_KEY = [KEY]
+- Use following command to setup env variable: 
+  export DSKY_KEY='[KEY]'
+  export GMAPS_KEY='[KEY]
+  
+ - Get Location.csv into directory and run forecast python program.'
