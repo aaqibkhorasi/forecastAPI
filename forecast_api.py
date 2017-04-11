@@ -126,7 +126,7 @@ def main():
 
     # Multi-Index
     t = pd.concat(frames, keys=locations)
-    t.index.set_names(['loc_id', 'date'], inplace=True)
+    t.index.set_names(['loc_id', 'weather'], inplace=True)
     t.to_csv('weatherreport.csv')
 
     # Produce Pivot Table
